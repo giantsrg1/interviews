@@ -1,0 +1,23 @@
+{
+  "name": "interviews",
+  "version": "1.0.0",
+  "description": "I will be storing code here that has to do with my interviews.",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giantsrg1/interviews.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giantsrg1/interviews/issues"
+  },
+  "homepage": "https://github.com/giantsrg1/interviews#readme"
+}
