@@ -1,6 +1,5 @@
 //main package class
 class packages {
-
     //set up our options for the packages
     constructor() {
         this.packageOptions = {
@@ -9,35 +8,33 @@ class packages {
                 p: 1
             },
             gift: {
-            	name: 'Gift',
-            	p: 2
+                name: 'Gift',
+                p: 2
             }
         };
     }
 
     //set the option user wants
-    setPackageOption(opt){
-    	this.userPackageOpt = opt;
+    setPackageOption(opt) {
+        this.userPackageOpt = opt;
     }
 
     //get the option price (opt: ask for price for certain item) or the user set option
     getOptionsPrice(opt) {
-        if(opt){
-    		return this.packageOptions[opt].p;
-    	}
-    	else if(this.userPackageOpt){
-	        return this.packageOptions[this.userPackageOpt].p;
-	    }
+        if (opt) {
+            return this.packageOptions[opt].p;
+        } else if (this.userPackageOpt) {
+            return this.packageOptions[this.userPackageOpt].p;
+        }
     }
 
     //get the option name (opt: ask for name for certain item) or the user set option
     getOptionsName(opt) {
-    	if(opt){
-    		return this.packageOptions[opt].name;
-    	}
-    	else if(this.userPackageOpt){
-	        return this.packageOptions[this.userPackageOpt].name;
-	    }
+        if (opt) {
+            return this.packageOptions[opt].name;
+        } else if (this.userPackageOpt) {
+            return this.packageOptions[this.userPackageOpt].name;
+        }
     }
 
     //get options list for view
@@ -50,7 +47,7 @@ class packages {
 class cartItems extends packages {
     //create cartItems with old items call super class
     constructor(oldCart) {
-    	super();
+        super();
         this.items = oldCart || [];
     }
 
@@ -65,8 +62,8 @@ class cartItems extends packages {
         this.items.forEach(function(item) {
             sum = sum + (item.p * item.q);
         });
-        if(this.userPackageOpt){
-        	sum = sum + super.getOptionsPrice(this.userPackageOpt);
+        if (this.userPackageOpt) {
+            sum = sum + super.getOptionsPrice(this.userPackageOpt);
         }
         return sum;
     }
@@ -92,7 +89,7 @@ console.log('Sum:' + cart.getSum());
 cart.setPackageOption('gift');
 
 //get the option and price
-console.log('Package ' + cart.getOptionsName() + ' was chosen! for $'+ cart.getOptionsPrice());
+console.log('Package ' + cart.getOptionsName() + ' was chosen! for $' + cart.getOptionsPrice());
 
 // get new sum of the cart after selection
 console.log('New Sum:' + cart.getSum());
