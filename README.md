@@ -8,6 +8,6 @@ All javascript files can be ran via node
 node javascript/*.js
 ```
 
-###### Author
+## Author
 Scott Goldstein
 > Goldstein.scott.nj@gmail.com
