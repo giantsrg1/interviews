@@ -46,7 +46,7 @@ class packages {
     }
 }
 
-
+//cart items class extending packages class
 class cartItems extends packages {
     //create cartItems with old items call super class
     constructor(oldCart) {
