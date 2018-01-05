@@ -1,6 +1,5 @@
 # Xavier
 
-## How to run Xavier
 Xavier is a small MEAN SPA webpage
 
 ### Dependencies
