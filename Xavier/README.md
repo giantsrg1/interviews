@@ -7,6 +7,7 @@ Xavier is a small MEAN SPA webpage build for an interview code review
 * Node
 * Angular
 * Bootstrap (css)
+* ES6
 
 ### Dependencies
 1. MongoDB
