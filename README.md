@@ -10,7 +10,7 @@ node javascript/*.js
 ```
 
 ## Code Examples
-*Xavier
+* Xavier
 
 ## Author
 Scott Goldstein
