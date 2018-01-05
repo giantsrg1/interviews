@@ -2,6 +2,12 @@
 
 Xavier is a small MEAN SPA webpage build for an interview code review
 
+### Languages/Libraies Used
+* Javascript
+* Node
+* Angular
+* Bootstrap (css)
+
 ### Dependencies
 1. MongoDB
 2. Node & Npm
