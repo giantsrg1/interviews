@@ -1,6 +1,6 @@
 # Xavier
 
-Xavier is a small MEAN SPA webpage
+Xavier is a small MEAN SPA webpage build for an interview code review
 
 ### Dependencies
 1. MongoDB
