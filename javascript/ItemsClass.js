@@ -1,4 +1,4 @@
-//main package class
+function//main package class
 class packages {
     //set up our options for the packages
     constructor() {

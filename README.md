@@ -9,9 +9,6 @@ npm install
 node javascript/*.js
 ```
 
-## Code Examples
-* Xavier
-
 ## Author
 Scott Goldstein
 > Goldstein.scott.nj@gmail.com
